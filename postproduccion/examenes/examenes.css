@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(252, 168, 255);
+    display: grid;
+    
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    border: 5px ridge rgb(255, 159, 159);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+li {
+    list-style: circle;
+}
+
+li::marker {
+    content: "📷";
+    font-size: 25px;
+}
+
+.a-saber {
+    color: rgb(225, 0, 255)
+}
+
+.aprobado{
+    color: green;
+}
+
+.suspenso {
+    color: red;
+}

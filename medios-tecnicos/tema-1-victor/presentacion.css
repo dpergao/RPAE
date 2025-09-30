@@ -1,0 +1,307 @@
+body {
+    background-color: rgb(170, 255, 167);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    color: rgb(31, 133, 0);
+    text-shadow: 2px 2px 8px rgb(119, 119, 119);
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+/* Primer apartado del temario */
+
+.contenedor1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.apartado1 {
+    display: flex;
+    padding: 10px;
+}
+
+img {
+    width: 400px;
+}
+
+.base{
+    color: rgb(0, 116, 6);
+    text-decoration: underline;
+}
+
+.efp {
+    color: rgb(255, 0, 140);
+    text-decoration: underline;
+}
+
+li{
+    font-size: 20px;
+    margin: 20px;
+    color: rgb(14, 122, 122);
+    font-weight: 500;
+}
+
+li::marker {
+    content: circle;
+    font-size: 25px;
+    color: rgba(9, 56, 0, 0.726);
+}
+
+.descripcion {
+    width: 30vw;
+    text-align: center;
+    border: 2px ridge black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+    padding: 15px;
+    margin: 20px;
+}
+
+.descripcion span{
+    color: red;
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.titulo-desc {
+    text-decoration: underline;
+    color:rgb(0, 116, 6)
+}
+
+#microayuda {
+    font-size: 18px;
+}
+
+/* apartado 1.1 ENG */
+
+.ENG-intro {
+    color: rgb(37, 117, 0);
+    text-shadow: 2px 2px 6px gray;
+    text-align: center;
+}
+
+.eng- {
+    margin: 0px
+}
+
+.eng-desc {
+    color: red
+}
+
+.si-vas {
+    margin-top: -20px;
+    margin-bottom: 2px;
+    font-weight: 900;
+}
+
+.ENG-intro p {
+    font-size: 19px;
+    text-rendering: optimizeLegibility;
+    text-decoration: 2px underline;
+}
+
+/* Tipos de trabajo */
+
+.trabajo-eng {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.trabajo-eng p {
+    font-size: 20px;
+    color:rgb(14, 122, 122);
+    font-weight: 900;
+    text-align: center;
+    text-decoration: 2px underline;
+}
+
+.trabajo-eng ul {
+    align-items: center;
+    text-align: start;
+    color:rgb(0, 116, 6)
+}
+
+.trabajo-eng li {
+    color:rgb(3, 112, 155);
+    font-size: 17px;
+    margin: 5px
+}
+
+.trabajo-eng li::marker {
+    color: rgb(0, 140, 255)
+}
+
+.trabajo-eng-lista {
+    width: 40%;
+    height: 100%;
+}
+
+.trabajo-eng-lista span{
+    color: rgb(10, 37, 117);
+    font-weight: 600;
+    text-decoration: 2px underline;
+}
+
+.trabajo-eng img {
+    width: 60%;
+    height: 550px;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+hr {
+    border: 1px dashed green;
+}
+
+/* Equipos ENG */ 
+
+.equipo-eng {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipo-eng p {
+    Font-size: 20px;
+    color:rgb(16, 75, 19);
+    font-weight: 900;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.lista-equipo-eng {
+    width: 35%;
+    margin-left: 50px
+}
+
+.lista-equipo-eng .desc-ENG{
+    font-size: 15px;
+    margin: 0px 10px;
+    text-align: start;
+    text-decoration: underline;
+}
+
+.lista-equipo-eng li {
+    color: rgb(31, 3, 134);
+    font-weight: 600;
+    font-size: 17px;
+    margin: 5px;
+}
+
+.lista-equipo-eng ol li::marker {
+    content: "➡️";
+}
+
+.equipo-eng img {
+    width: 65%;
+    border-radius: 20px;
+    object-fit: contain;
+    height: 900px;
+
+}
+
+.lista-equipo-eng ul li {
+    color: rgb(11, 114, 1);
+    text-shadow: none;
+    text-decoration: none;
+}
+
+.lista-equipo-eng li{
+    color: rgb(2, 192, 75);
+    text-decoration: 2px underline;
+}
+
+
+.lista-equipo-eng .ej-ENG {
+    color: rgb(76, 109, 78);
+    font-size: 15px;
+    margin-top: -5px;
+    text-align: start;
+}
+
+/* EFP */
+
+.EFP .contenedor1 .descripcion .titulo-desc {
+    color: rgb(35, 71, 0);
+    font-weight: 600;
+}
+
+.EFP .contenedor1 .descripcion .titulo-desc::marker{
+    content: none;
+}
+
+.EFP .contenedor1 .descripcion ul li{
+    text-align: start;
+    color: rgb(0, 132, 255);
+    font-size: 18px;
+    margin: 0px;
+}
+
+.EFP .contenedor1 .descripcion .quit {
+    color: blue;
+}
+
+.EFP .contenedor1 .descripcion .quit::marker{
+    content: none;
+}
+
+.EFP .contenedor1 .descripcion p{
+    color: blueviolet;
+    font-weight: 600;
+}
+
+.EFP .descripcion img {
+    width: auto;
+    border-radius: 10px;
+    object-fit: cover; 
+}
+
+.soportes {
+    text-align: center;
+}
+
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    justify-items: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px gray;
+}
+
+.card img {
+    width: 200px;
+}
+
+.card p {
+    color:rgb(0, 90, 5);
+}
+
+#titulo {
+    color:rgb(0, 132, 255);
+    text-decoration: underline;
+}
+
+.subtitulo {
+    font-size: 20px;
+    color:rgb(4, 121, 0);
+    text-decoration: underline;
+}
+
+/* Fin del primer apartado */
+
